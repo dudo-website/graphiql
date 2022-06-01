@@ -7,13 +7,11 @@ Simple html page that loads graphiql.js.
 This service makes heavy use of docker and docker compose. Setting up docker is beyond the scope of this readme.
 
 ```shell
-mkdir ~/projects/dudo-website
-cd ~/projects/dudo-website
-git clone git@github.com:dudo-website/graphiql.git
-cd ~/projects/dudo-website/graphiql
-
+cp .env.sample .env
 docker compose up -d
 ```
+
+That is all... seriously.
 
 ## Reading
 
